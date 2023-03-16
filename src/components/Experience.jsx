@@ -27,7 +27,9 @@ const ExperienceCard = ({ experience }) => {
           />
         </div>
       }
-    >
+      >
+      {/* the above icon is for the vertical line circles*/}
+      {/* the content style is for the list points*/}
       <div>
         <h3 className='text-white text-[24px] font-bold'>{experience.title}</h3>
         <p
